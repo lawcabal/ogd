@@ -1,0 +1,35 @@
+{
+  "name": "my-cfc-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setUp": "ts-node src/apps/setupCollections.ts",
+    "importMembers": "ts-node src/apps/importMembers.ts",
+    "importAttendance": "ts-node src/apps/importAttendance",
+    "noWeddingDate": "ts-node src/apps/noWedding.ts",
+    "forCocl": "ts-node src/apps/forCocl.ts",
+    "createHousehold": "ts-node src/apps/createHousehold.ts",
+    "importActivities": "ts-node src/apps/importActivities.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.34.0",
+    "@types/node": "^24.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "eslint": "^9.34.0",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "mongodb": "^6.18.0"
+  }
+}
